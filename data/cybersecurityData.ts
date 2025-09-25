@@ -1,4 +1,4 @@
-import { Lesson, AttackType, Reference, QuizQuestion } from '../types';
+import { Lesson } from '../types';
 
 export const cybersecurityData: Lesson[] = [
   {

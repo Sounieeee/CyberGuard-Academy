@@ -1,4 +1,4 @@
-import { Achievement, Lesson } from '../types';
+import { Achievement } from '../types';
 
 export const achievementsData: Achievement[] = [
   {
