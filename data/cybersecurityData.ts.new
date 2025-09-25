@@ -1,0 +1,76 @@
+import { Lesson } from '../types';
+
+export const cybersecurityData: Lesson[] = [
+  {
+    id: 'malware-attacks',
+    title: 'Malware Attacks',
+    description: 'Learn about different types of malware and their characteristics.',
+    sources: ['ScienceDirect', 'MDPI', 'Kaspersky', 'CISA'],
+    imageUrl: '/images/Malware Attacks.jpg',
+    readingTime: 15,
+    attackTypes: [
+      { type: 'Ransomware', description: 'Malware that encrypts files and demands payment for decryption.', imageUrl: '/images/ransomware.png' },
+      { type: 'Virus', description: 'Self-replicating malware that needs a host program.', imageUrl: '/images/Virus.png' },
+      { type: 'Worm', description: 'Self-replicating malware that spreads independently.', imageUrl: '/images/Worm.png' },
+      { type: 'Trojan', description: 'Malware disguised as legitimate software.', imageUrl: '/images/Trojan.png' },
+      { type: 'Spyware', description: 'Software that secretly monitors user activity.', imageUrl: '/images/Spyware.png' },
+      { type: 'Adware', description: 'Software that displays unwanted advertisements.', imageUrl: '/images/adware.png' },
+      { type: 'Cryptojacking', description: 'Unauthorized use of computing resources for cryptocurrency mining.', imageUrl: '/images/Cryptojacking.png' }
+    ]
+  },
+  {
+    id: 'social-engineering',
+    title: 'Social Engineering Attacks',
+    description: 'Understanding various social engineering techniques and how to prevent them.',
+    sources: ['SANS', 'NIST', 'CISA'],
+    imageUrl: '/images/Social Engineering & Phishing.jpg',
+    readingTime: 12,
+    attackTypes: [
+      { type: 'Phishing', description: 'Fraudulent attempts to obtain sensitive information.', imageUrl: '/images/Phishing.png' },
+      { type: 'Spear Phishing', description: 'Targeted phishing attacks against specific individuals.', imageUrl: '/images/Spear Phishing.png' },
+      { type: 'Whaling', description: 'Phishing attacks targeting high-level executives.', imageUrl: '/images/Whaling.png' },
+      { type: 'Vishing', description: 'Voice phishing using phone calls.', imageUrl: '/images/Vhishing.png' },
+      { type: 'Smishing', description: 'Phishing through SMS messages.', imageUrl: '/images/Smishing.png' },
+      { type: 'Pretexting', description: 'Creating a fabricated scenario to obtain information.', imageUrl: '/images/Pretexting.png' }
+    ]
+  },
+  {
+    id: 'web-attacks',
+    title: 'Web & Network Attacks',
+    description: 'Common web and network-based attack vectors.',
+    sources: ['OWASP', 'NIST', 'Portswigger'],
+    imageUrl: '/images/Network & Web Application Attacks.png',
+    readingTime: 10,
+    attackTypes: [
+      { type: 'SQL Injection', description: 'Inserting malicious SQL code into queries.', imageUrl: '/images/SQL Injection.png' },
+      { type: 'Cross-Site Scripting', description: 'Injecting malicious scripts into web pages.', imageUrl: '/images/Cross-Site Scripting.png' },
+      { type: 'Man-in-the-Middle', description: 'Intercepting communications between two parties.', imageUrl: '/images/Man-In-The-Middle.png' },
+      { type: 'Denial of Service', description: 'Overwhelming systems to make them unavailable.', imageUrl: '/images/Denial of Service.png' }
+    ]
+  },
+  {
+    id: 'advanced-threats',
+    title: 'Advanced Persistent Threats',
+    description: 'Sophisticated and targeted cyber attacks.',
+    sources: ['FireEye', 'Mandiant', 'CrowdStrike'],
+    imageUrl: '/images/Cyber Espionage.png',
+    readingTime: 14,
+    attackTypes: [
+      { type: 'Zero-Day Exploits', description: 'Attacking previously unknown vulnerabilities.', imageUrl: '/images/Zero-Day Exploit.png' },
+      { type: 'Supply Chain Attacks', description: 'Compromising software supply chains.', imageUrl: '/images/Supply Chain Attack.png' },
+      { type: 'Insider Threats', description: 'Threats from within an organization.', imageUrl: '/images/Insider Threats.png' }
+    ]
+  },
+  {
+    id: 'identity-theft',
+    title: 'Identity Theft & Data Breaches',
+    description: 'Understanding identity theft and data breach impacts.',
+    sources: ['FBI', 'FTC', 'Identity Theft Resource Center'],
+    imageUrl: '/images/Identity Theft.png',
+    readingTime: 8,
+    attackTypes: [
+      { type: 'Data Breach', description: 'Unauthorized access to sensitive data.', imageUrl: '/images/Data Breach.png' },
+      { type: 'Identity Theft', description: 'Stealing and using personal information.', imageUrl: '/images/Identity Theft.png' }
+    ]
+  }
+];
